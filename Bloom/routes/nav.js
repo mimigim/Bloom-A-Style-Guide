@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
+/* GET nav pattern. */
 router.get('/', function(req, res) {
-  res.render('index', { title: 'Bloom Patterns' });
+  res.render('nav', { title: 'Navigation' });
 });
 
 module.exports = router;

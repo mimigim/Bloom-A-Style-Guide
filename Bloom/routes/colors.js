@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET Hello World page. */
+/* GET colors pattern. */
 router.get('/', function(req, res) {
-  res.render('demo', { title: 'Hello, World!' })
+  res.render('colors', { title: 'Colors' });
 });
 
 module.exports = router;

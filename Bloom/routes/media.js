@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET Hello World page. */
+/* GET media pattern. */
 router.get('/', function(req, res) {
-  res.render('guide', { title: 'Hello, World!' })
+  res.render('media', { title: 'Media' });
 });
 
 module.exports = router;

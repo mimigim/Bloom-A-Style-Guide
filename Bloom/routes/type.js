@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
+/* GET type pattern. */
 router.get('/', function(req, res) {
-  res.render('index', { title: 'Bloom Patterns' });
+  res.render('type', { title: 'Type' });
 });
 
 module.exports = router;
