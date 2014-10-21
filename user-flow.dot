@@ -1,0 +1,17 @@
+graph graphme {
+  a [label="Bloom Home Page" fontsize=20 shape=star]
+  b [label="{<f0> NAVIGATION|<f1> Links|<f2> Text|<f3> Tooltips}" shape=record fontsize=20]
+  c [label="{<f0> MEDIA|<f1> Photos|<f2> Video|<f3> GIFs|<f4> Galleries|<f5> Logos}" shape=record fontsize=20]
+  d [label="{<f0> FORMS|<f1> Labels|<f2> Fieldsets}" shape=record fontsize=20]
+  e [label="{<f0> BUTTONS|<f1> States|<f2> Types}" shape=record fontsize=20]
+  f [label="{<f0> TYPOGRAPHY|<f1> Title/Subtitle|<f2> Body Copy|<f3> Emphasis}" shape=record fontsize=20]
+  g [label="{<f0> COLOR|<f1> Base Line|<f2> Convention Color}" shape=record fontsize=20]
+
+
+  a -- b;
+  a -- c;
+  a -- d;
+  a -- e;
+  a -- f;
+  a -- g;
+}
