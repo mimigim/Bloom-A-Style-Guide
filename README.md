@@ -36,3 +36,8 @@ Components of Library
 * Color
   * Base Line
   * Convention Color
+
+Kanban
+------
+[Trello Board](https://trello.com/b/nU9AZMy9/bloom-a-style-guide)
+
