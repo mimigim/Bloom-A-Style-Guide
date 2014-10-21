@@ -1,7 +1,7 @@
 Bloom-A-Style-Guide
 ===================
 
-Description: The inspiration behind our living style guide is the design and life cycle of a tree. A tree represents the concept of one complex organism consisting of many smaller parts.
+Description: The inspiration behind our living style guide is the design and life cycle of a tree. A tree represents the concept of one complex organism consisting of many smaller parts. A new note.
 
 Minimum Viable Product Specification
 ====================================
