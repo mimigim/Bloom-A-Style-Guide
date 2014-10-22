@@ -1,5 +1,5 @@
-$font-titles: 'MuseoCyrl_500-webfont', serif;
-$font-base: 'Arial Rounded MT Bold', sans-serif;
+$font-base: 'Museo', serif;
+$font-titles: 'Arial Rounded MT Bold', sans-serif;
 
 $primary-color: #C8EA80;     // pale green
 $secondary-color: #EFEC72;   // pale yellow
@@ -9,3 +9,11 @@ $fifth-color: #0D0D0D;       // dark black
 
 $primary-color-hover: rgba(183,244,119,0.6); // lightened pale green
 $secondary-color-hover: rgba(234,244,96,0.6); // lightened pale yellow
+
+// Font Sizing
+$small: 0.618rem;
+$normal: 1rem;
+$medium: 1.618rem;
+$large: 2.618rem;
+$larger: 4.236rem;
+$largest: 6.854rem;

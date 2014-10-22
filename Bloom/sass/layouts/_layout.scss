@@ -8,6 +8,7 @@
     display: inline;
   }
   a {
+    font-family: $font-titles;
     color: black;
     display: inline-block;
     text-decoration: none;
@@ -20,4 +21,10 @@
 
 .ptn-title, .ptn-subtitle {
   text-align: center;
+}
+
+img {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
 }
