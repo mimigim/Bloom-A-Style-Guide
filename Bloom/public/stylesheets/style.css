@@ -39,7 +39,6 @@ table {
   font-style: normal; }
 
 .stnd-primary, .sm-primary, .stnd-secondary, .sm-secondary, .stnd-disabled, .sm-disabled {
-  margin: 0 0.5rem;
   border: none;
   border-radius: 0.8rem; }
 
@@ -74,6 +73,7 @@ table {
 .swatch {
   display: inline-block;
   padding: 2rem 0;
+  margin: 0.5rem;
   width: 5rem;
   border-radius: 50%;
   text-align: center;
@@ -113,6 +113,7 @@ table {
 
 .code {
   background: #E8E8E8;
+  height: 2rem;
   margin-left: -1%; }
 
 .main-nav {
@@ -130,6 +131,9 @@ table {
     padding: 0.8rem 3.5%; }
     .main-nav a:hover {
       background-color: white; }
+
+.ptn-title, .ptn-subtitle {
+  text-align: center; }
 
 .section {
   clear: both;

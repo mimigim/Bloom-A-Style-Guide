@@ -25,17 +25,25 @@ Components of Library
   * Logos
 * Forms
   * Labels
-  * Fieldsets
+  * Inputs
+  * Selects
+  * Buttons
+  * Fieldsets & Legends
 * Buttons
-  * States
-  * Types
+  * Standard Round
+  * Small Round
+  * Standard Square
+  * Small Square
 * Typography
   * Title/Subtitle
   * Body Copy
   * Emphasis
 * Color
-  * Base Line
-  * Convention Color
+  * Pale Green
+  * Pale Yellow
+  * Light Grey
+  * Dark Grey
+  * Dark Black
 
 Kanban
 ------
