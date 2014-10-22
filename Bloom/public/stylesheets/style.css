@@ -71,7 +71,7 @@ table {
   padding: 0.3rem 0.8rem;
   font-size: 0.8rem; }
 
-div {
+.swatch {
   display: inline-block;
   padding: 2rem 0;
   width: 5rem;
