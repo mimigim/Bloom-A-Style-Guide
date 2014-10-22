@@ -39,15 +39,15 @@ table {
   font-style: normal; }
 
 .stnd-primary, .sm-primary, .stnd-secondary, .sm-secondary, .stnd-disabled, .sm-disabled {
-  margin: 0 0.5em;
+  margin: 0 0.5rem;
   border: none;
-  border-radius: 0.8em; }
+  border-radius: 0.8rem; }
 
 .round {
-  border-radius: 0.8em; }
+  border-radius: 0.8rem; }
 
 .square {
-  border-radius: 0.1em; }
+  border-radius: 0.1rem; }
 
 .stnd-primary, .sm-primary {
   background-color: #C8EA80; }
@@ -64,12 +64,38 @@ table {
   color: #5A5C5A; }
 
 .stnd-primary, .stnd-secondary, .stnd-disabled {
-  padding: 0.3em 1em;
-  font-size: 1em; }
+  padding: 0.3rem 1rem;
+  font-size: 1rem; }
 
 .sm-primary, .sm-secondary, .sm-disabled {
-  padding: 0.3em 0.8em;
-  font-size: 0.8em; }
+  padding: 0.3rem 0.8rem;
+  font-size: 0.8rem; }
+
+div {
+  display: inline-block;
+  padding: 2rem 0;
+  width: 5rem;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1rem; }
+
+.white {
+  color: #fff; }
+
+.primary-color {
+  background-color: #C8EA80; }
+
+.secondary-color {
+  background-color: #EFEC72; }
+
+.third-color {
+  background-color: #E8E8E8; }
+
+.fourth-color {
+  background-color: #5A5C5A; }
+
+.fifth-color {
+  background-color: #0D0D0D; }
 
 .p-grid {
   background-color: #E8E8E8;
