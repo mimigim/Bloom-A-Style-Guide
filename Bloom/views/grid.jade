@@ -3,63 +3,6 @@ extends layout
 block content
   h1 Grid System
 
-  h2 One Column
-  div.section.group
-    div.p-grid.col.span_2_of_2
-      p 1 of 1
+  include ./includes/grid-system
 
-  h2 Two Columns
-  div.section.group
-    div.p-grid.col.span_1_of_2
-      p 1 of 2
-    div.p-grid.col.span_1_of_2
-      p 1 of 2
-
-  h2 Three Columns
-  div.section.group
-    div.p-grid.col.span_1_of_3
-      p 1 of 3
-    div.p-grid.col.span_1_of_3
-      p 1 of 3
-    div.p-grid.col.span_1_of_3
-      p 1 of 3
-
-  h2 4 Columns
-  div.section.group
-    div.p-grid.col.span_1_of_4
-      p 1 of 4
-    div.p-grid.col.span_1_of_4
-      p 1 of 4
-    div.p-grid.col.span_1_of_4
-      p 1 of 4
-    div.p-grid.col.span_1_of_4
-      p 1 of 4
-
-  h2 You Can Also Mix &amp; Match
-  div.section.group
-    div.p-grid-mix.col.span_1_of_3
-      p 1 of 3
-    div.p-grid-mix.col.span_2_of_3
-      p 2 of 3
-
-  div.section.group
-    div.p-grid-mix.col.span_2_of_3
-      p 2 of 3
-    div.p-grid-mix.col.span_1_of_3
-      p 1 of 3
-
-  div.section.group
-    div.p-grid-mix.col.span_1_of_4
-      p 1 of 4
-    div.p-grid-mix.col.span_2_of_4
-      p 2 of 4
-    div.p-grid-mix.col.span_1_of_4
-      p 1 of 4
-
-  div.section.group
-    div.p-grid-mix.col.span_3_of_4
-      p 3 of 4
-    div.p-grid-mix.col.span_1_of_4
-      p 1 of 4
-  p.
-    To find out more about this grid, head over to the <a href='http://www.responsivegridsystem.com/'> Responsive Grid System</a> site.
+  include ./includes/grid-system-mix
