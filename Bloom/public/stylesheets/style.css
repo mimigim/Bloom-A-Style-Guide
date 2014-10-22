@@ -58,6 +58,14 @@ table {
   .p-grid-mix p {
     color: white; }
 
+.notes {
+  background: #5A5C5A;
+  height: 23.75rem; }
+
+.code {
+  background: #E8E8E8;
+  margin-left: -1%; }
+
 .section {
   clear: both;
   padding: 0;
