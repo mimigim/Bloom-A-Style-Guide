@@ -1,0 +1,12 @@
+.p-grid {
+  background-color: $third-color;
+  height: 4rem;
+}
+
+.p-grid-mix {
+  background-color: $fourth-color;
+  height: 4rem;
+  p {
+    color: white;
+  }
+}
