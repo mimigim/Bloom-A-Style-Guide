@@ -1,0 +1,12 @@
+.stnd-btn, .sm-btn {
+  background-color: blue;
+  &:hover, &:focus {
+    background-color: green;
+  }
+}
+
+.stnd-btn, .sm-btn, .stnd-disabled-btn, .sm-disabled-btn {
+  font-size: 2em;
+  height: 2em;
+  margin: 0 0.5em;
+}
