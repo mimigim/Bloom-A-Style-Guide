@@ -3,10 +3,6 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
-  p Standard
-  button.stnd-btn Button
-  button.stnd-disabled-btn(disabled='true') Disabled
-  p Small
-  button.sm-btn Button
-  button.sm-disabled-btn(disabled='true') Disabled
+  include p-stnd-btn
+  include p-sm-btn
 
