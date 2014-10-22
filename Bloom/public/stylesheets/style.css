@@ -50,18 +50,18 @@ table {
   border-radius: 0.1em; }
 
 .stnd-primary, .sm-primary {
-  background-color: #b7f477; }
+  background-color: #C8EA80; }
   .stnd-primary:hover, .stnd-primary:focus, .sm-primary:hover, .sm-primary:focus {
     background-color: rgba(183, 244, 119, 0.6); }
 
 .stnd-secondary, .sm-secondary {
-  background-color: #eaf460; }
+  background-color: #EFEC72; }
   .stnd-secondary:hover, .stnd-secondary:focus, .sm-secondary:hover, .sm-secondary:focus {
     background-color: rgba(234, 244, 96, 0.6); }
 
 .stnd-disabled, .sm-disabled {
   background-color: #E8E8E8;
-  color: #595C5A; }
+  color: #5A5C5A; }
 
 .stnd-primary, .stnd-secondary, .stnd-disabled {
   padding: 0.3em 1em;

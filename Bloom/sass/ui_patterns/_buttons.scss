@@ -18,22 +18,22 @@
 }
 
 .stnd-primary, .sm-primary {
-  background-color: rgb(183,244,119);
+  background-color: $primary-color;
   &:hover, &:focus {
-    background-color: rgba(183,244,119,0.6);
+    background-color: $primary-color-hover;
   }
 }
 
 .stnd-secondary, .sm-secondary {
-  background-color: rgb(234,244,96);
+  background-color: $secondary-color;
   &:hover, &:focus {
-    background-color: rgba(234,244,96,0.6);
+    background-color: $secondary-color-hover;
   }
 }
 
 .stnd-disabled, .sm-disabled {
-  background-color: #E8E8E8;
-  color: #595C5A;
+  background-color: $third-color;
+  color: $fourth-color;
 }
 
 .stnd-primary,
