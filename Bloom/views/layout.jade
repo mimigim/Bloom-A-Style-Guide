@@ -5,7 +5,7 @@ html
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
     img(src="https://files.gitter.im/nklunder/Project-Week-Component-Library/t1Au/bloom-logo.png", alt="Bloom logo.")
-    ul
+    ul.main-nav
       li
         a(href='/buttons') Buttons
       li
@@ -13,12 +13,14 @@ html
       li
         a(href='/forms') Forms
       li
+        a(href='/grid') Grid
+      li
         a(href='/media') Media
       li
         a(href='/nav') Navigation
       li
         a(href='/type') Typography
-
+    div
       block content
 
     script(src='http://localhost:35729/livereload.js')

@@ -12,6 +12,7 @@ var forms = require('./routes/forms');
 var media = require('./routes/media');
 var nav = require('./routes/nav');
 var type = require('./routes/type');
+var grid = require('./routes/grid');
 // var users = require('./routes/users');
 
 var app = express();
@@ -35,6 +36,7 @@ app.use('/forms', forms);
 app.use('/media', media);
 app.use('/nav', nav);
 app.use('/type', type);
+app.use('/grid', grid);
 
 // app.use('/users', users);
 

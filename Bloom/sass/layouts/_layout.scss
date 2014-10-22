@@ -1,0 +1,19 @@
+.main-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: $secondary-color;
+  li {
+    display: inline;
+  }
+  a {
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.8rem 3.5%;
+    &:hover {
+      background-color: white;
+    }
+  }
+}

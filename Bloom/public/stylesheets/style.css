@@ -38,15 +38,98 @@ table {
   font-weight: normal;
   font-style: normal; }
 
-.stnd-btn, .sm-btn {
-  background-color: blue; }
-  .stnd-btn:hover, .stnd-btn:focus, .sm-btn:hover, .sm-btn:focus {
-    background-color: green; }
+.stnd-primary, .sm-primary, .stnd-secondary, .sm-secondary, .stnd-disabled, .sm-disabled {
+  margin: 0 0.5rem;
+  border: none;
+  border-radius: 0.8rem; }
 
-.stnd-btn, .sm-btn, .stnd-disabled-btn, .sm-disabled-btn {
-  font-size: 2em;
-  height: 2em;
-  margin: 0 0.5em; }
+.round {
+  border-radius: 0.8rem; }
+
+.square {
+  border-radius: 0.1rem; }
+
+.stnd-primary, .sm-primary {
+  background-color: #C8EA80; }
+  .stnd-primary:hover, .stnd-primary:focus, .sm-primary:hover, .sm-primary:focus {
+    background-color: rgba(183, 244, 119, 0.6); }
+
+.stnd-secondary, .sm-secondary {
+  background-color: #EFEC72; }
+  .stnd-secondary:hover, .stnd-secondary:focus, .sm-secondary:hover, .sm-secondary:focus {
+    background-color: rgba(234, 244, 96, 0.6); }
+
+.stnd-disabled, .sm-disabled {
+  background-color: #E8E8E8;
+  color: #5A5C5A; }
+
+.stnd-primary, .stnd-secondary, .stnd-disabled {
+  padding: 0.3rem 1rem;
+  font-size: 1rem; }
+
+.sm-primary, .sm-secondary, .sm-disabled {
+  padding: 0.3rem 0.8rem;
+  font-size: 0.8rem; }
+
+.swatch {
+  display: inline-block;
+  padding: 2rem 0;
+  width: 5rem;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1rem; }
+
+.white {
+  color: #fff; }
+
+.primary-color {
+  background-color: #C8EA80; }
+
+.secondary-color {
+  background-color: #EFEC72; }
+
+.third-color {
+  background-color: #E8E8E8; }
+
+.fourth-color {
+  background-color: #5A5C5A; }
+
+.fifth-color {
+  background-color: #0D0D0D; }
+
+.p-grid {
+  background-color: #E8E8E8;
+  height: 4rem; }
+
+.p-grid-mix {
+  background-color: #5A5C5A;
+  height: 4rem; }
+  .p-grid-mix p {
+    color: white; }
+
+.notes {
+  background: #5A5C5A;
+  height: 23.75rem; }
+
+.code {
+  background: #E8E8E8;
+  margin-left: -1%; }
+
+.main-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #EFEC72; }
+  .main-nav li {
+    display: inline; }
+  .main-nav a {
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.8rem 3.5%; }
+    .main-nav a:hover {
+      background-color: white; }
 
 .section {
   clear: both;

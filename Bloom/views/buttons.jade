@@ -3,6 +3,14 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
-  include p-stnd-btn
-  include p-sm-btn
+  div
+    p Standard Round
+    include includes/buttons/btn-stnd-round
+    p Standard Square
+    include includes/buttons/btn-stnd-square
+  div
+    p Small Round
+    include includes/buttons/btn-sm-round
+    p Small Square
+    include includes/buttons/btn-sm-square
 
