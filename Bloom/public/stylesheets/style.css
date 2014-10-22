@@ -66,6 +66,22 @@ table {
   background: #E8E8E8;
   margin-left: -1%; }
 
+.main-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #EFEC72; }
+  .main-nav li {
+    display: inline; }
+  .main-nav a {
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.8rem 3.5%; }
+    .main-nav a:hover {
+      background-color: white; }
+
 .section {
   clear: both;
   padding: 0;
