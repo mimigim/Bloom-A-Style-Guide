@@ -5,23 +5,32 @@ block content
 
   div.section.group
     div.col.span_2_of_3
-      h2 Sample Media
-      img(src='http://placehold.it/1280x720')
+      h2 UI Patterns
+      include includes/media/media-hero
     div.col.span_1_of_3.notes
       h2 Notes
       p Using images, just like any other component of a website, should be done with careful thought and consideration. If you want your images to enhance the user’s experience, increase conversions, help with branding, and improve visual appeal, consider the following ideas I will share with you in this article.
   div.section.group
     div.col.span_3_of_3.code
-      p Code
+      pre
+        code
+          p Hero Image
+          span &lt;img src="http://placehold.it/1280x720"/&gt;
+
   div.section.group
     div.col.span_2_of_3.post-img
-      img(src='http://placehold.it/200x200' align="left")
-      div.post-text
-        h1 Title for Media
-        p Web designers will also have a working knowledge of using a variety of languages. The web designers are responsible for the visual aspect, which includes the layout, coloring and typography of a web page.
+      include includes/media/media-post
     div.col.span_1_of_3.notes
       h2 Notes
       p There are two primary jobs involved in creating a website: the web designer and web developer, who often work closely together on a website. The web designers are responsible for the visual aspect, which includes the layout, coloring and typography of a web page.
   div.section.group
     div.col.span_3_of_3.code
-        p Code
+      pre
+        code
+          p Post Image Block
+          span &lt;img src="http://placehold.it/200x200" align="left"/&gt;
+          span &lt;div class="post-text"&gt;
+          span.indent &lt;h1&gt;Title for Media&lt;h1&gt;
+          span.indent &lt;p&gt;Place your text here.&lt;p&gt;
+          span &lt;div&gt;
+
