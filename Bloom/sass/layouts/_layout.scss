@@ -80,11 +80,23 @@ img {
   }
 }
 .code {
-  background: $third-color;
+  background: $fourth-color;
   height: auto;
   border-radius: 3px;
   pre, p {
     margin-left: $normal;
     padding-bottom: .1rem;
+    color: $third-color;
+    code {
+      line-height: 1.5rem;
+      color: $primary-color;
+      span {
+        display: block;
+      }
+    }
   }
+}
+
+.break {
+  padding-bottom: 1.5rem;
 }
