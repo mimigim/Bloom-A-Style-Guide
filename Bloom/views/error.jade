@@ -1,7 +1,9 @@
 extends layout
 
 block content
-  h1= message
-  h2= error.status
-  //- p ERROR
-  pre #{error.stack}
+  div.center-align
+    h1= message
+    h2= error.status
+    //- pre #{error.stack}
+    img(src="images/broken-tree.jpg", alt="Error page message and broken tree image.")
+    h3 Oh no... looks like we lost our consistency.

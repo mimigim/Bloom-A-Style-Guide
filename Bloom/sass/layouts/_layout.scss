@@ -49,6 +49,7 @@ img {
   }
 }
 .code {
+  overflow: scroll;
   background: $fourth-color;
   height: auto;
   border-radius: 3px;
