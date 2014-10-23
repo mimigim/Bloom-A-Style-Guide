@@ -1,8 +1,17 @@
 .logo {
-  display: inline-block;
-  font-size: $larger;
+  img {
+    display: inline;
+    float: right;
+  }
+  h1 {
+    padding-top: 4.2rem;
+    font-size: $larger;
+  }
+}
+header {
   background-color: $primary-color;
 }
+
 .main-nav {
   list-style: none;
   margin: 0;
