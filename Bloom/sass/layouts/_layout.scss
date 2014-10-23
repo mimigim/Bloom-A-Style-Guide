@@ -8,78 +8,38 @@
     font-size: $larger;
   }
 }
-
 header {
   background-color: $primary-color;
 }
-
-.main-nav {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  background-color: $secondary-color;
-  li {
-    display: inline;
-  }
-  a {
-    font-family: $font-titles;
-    color: black;
-    display: inline-block;
-    text-decoration: none;
-    padding: 0.8rem 2.5%;
-    &:hover {
-      background-color: white;
-    }
-  }
+.bottom-padding {
+  padding-bottom: $normal;
 }
-
-.secondary-nav {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: left;
-  background-color: $primary-color;
-  li {
-    display: inline;
-  }
-  a {
-    font-family: $font-base;
-    color: black;
-    display: inline-block;
-    text-decoration: none;
-    padding: 0.8rem 3.5%;
-    &:hover {
-      background-color: white;
-    }
-  }
+.top-padding {
+  padding-bottom: $normal;
 }
-
 .white-space {
   padding-top: 4rem;
 }
-
+.margin-clear {
+  margin-top: 0;
+}
 img {
   max-width: 100%;
   margin: 0;
   padding: 0;
 }
-
 .container {
   width: 80%;
   margin: 0 auto;
 }
-
 .notes h1 {
   margin: $normal;
 }
-
 .front-block {
   background-color: $primary-color;
   border-sizing: border-box;
   padding: 1% 5% 5% 5%;
 }
-
 .front-post {
   h1 {
     font-size: 2rem;
@@ -88,7 +48,6 @@ img {
     margin-top: $small;
   }
 }
-
 .code {
   background: $fourth-color;
   height: auto;
@@ -109,19 +68,15 @@ img {
     margin-left: 0;
   }
 }
-
 .current-tab {
   background-color: white;
 }
-
 .break {
   padding-bottom: 1.5rem;
 }
-
 .indent {
   padding-left: 1rem;
 }
-
 footer {
   background-color: $secondary-color;
   margin-top: $medium;
