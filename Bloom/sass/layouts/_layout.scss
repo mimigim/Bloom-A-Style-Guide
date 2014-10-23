@@ -77,6 +77,13 @@ img {
 .indent {
   padding-left: 1rem;
 }
+a {
+  padding: 0 0.18rem;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
 footer {
   background-color: $secondary-color;
   margin-top: $medium;
@@ -86,3 +93,4 @@ footer {
     margin-bottom: 0;
   }
 }
+
