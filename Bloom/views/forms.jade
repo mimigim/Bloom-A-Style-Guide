@@ -16,4 +16,49 @@ block content
       p HTML 5 introduces a number of input tags that can be represented by other interface elements. Some are based upon text input fields and are intended to input and validate specific common data. These include email to enter email addresses, tel for telephone numbers, number for credit card numbers and security codes.
     div.section.group
       div.col.span_3_of_3.code
-        p Code
+        pre
+          code
+            p User Information
+            span &lt;fieldset&gt;
+            span.indent &lt;legend&gt;User Information&lt;/legend&gt;
+            span.indent &lt;input type="text" placeholder="Input Text"/&gt;
+            span.indent &lt;input type="text" disabled="disabled" placeholder="Disabled Input"/&gt;
+            span.indent &lt;input type="text" placeholder="Error Input" class="input-error"/&gt;
+            span.indent &lt;input type="text" placeholder="Success Input" class="input-success"/&gt;
+            span.indent &lt;textarea placeholder="Medium sized textarea field for bigger explainations." rows="6"&gt;&lt;/textarea&gt;
+            span.break &lt;/fieldset&gt;
+
+            p Select
+            span &lt;fieldset&gt;
+            span.indent &lt;legend&gt;Select&lt;/legend&gt;
+            span.indent &lt;select&gt;
+              span.indent &lt;option value=""&gt;Select an option&lt;/option&gt;
+              span.indent &lt;option value="1"&gt;Value 1&lt;/option&gt;
+              span.indent &lt;option value="2"&gt;Value 2&lt;/option&gt;
+              span.indent &lt;option value="3"&gt;Value 3&lt;/option&gt;
+              span.indent &lt;option value="4"&gt;Value 4&lt;/option&gt;
+              span.indent &lt;option value="5"&gt;Value 5&lt;/option&gt;
+            span.indent &lt;/select&gt;
+            span.break &lt;/fieldset&gt;
+
+            p Checkbox
+            span &lt;fieldset&gt;
+            span.indent &lt;legend&gt;Checkbox&lt;/legend&gt;
+            span.indent &lt;input id="check1" type="checkbox" value="1"/&gt;
+            span.indent &lt;label class="checkbox-label" for="check1"&gt;Value 1&lt;/label&gt;
+            span.indent &lt;input id="check2" type="checkbox" value="2"/&gt;
+            span.indent &lt;label class="checkbox-label" for="check2"&gt;Value 2&lt;/label&gt;
+            span.break &lt;/fieldset&gt;
+
+            p Radio Button
+            span &lt;fieldset&gt;
+            span.indent &lt;legend&gt;Radio Button&lt;/legend&gt;
+            span.indent &lt;input id="radio1" type="radio" name="radio" value="1"/&gt;
+            span.indent &lt;label class="radio-label" for="radio1"&gt;Value 1&lt;/label&gt;
+            span.indent &lt;input id="radio2" type="radio" name="radio" value="2"/&gt;
+            span.indent &lt;label class="radio-label" for="radio2"&gt;Value 2&lt;/label&gt;
+            span.break &lt;/fieldset&gt;
+
+            p Form Button
+            span &lt;button class="stnd-primary square form-btn"&gt;Submit&lt;/button&gt;
+

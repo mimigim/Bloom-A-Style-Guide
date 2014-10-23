@@ -104,3 +104,17 @@ img {
 .break {
   padding-bottom: 1.5rem;
 }
+
+.indent {
+  padding-left: 1rem;
+}
+
+footer {
+  background-color: $secondary-color;
+  margin-top: $medium;
+  p {
+    padding: $normal;
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
