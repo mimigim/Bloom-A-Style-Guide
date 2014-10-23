@@ -7,6 +7,17 @@ fieldset {
   margin-bottom: 1em;
 }
 
+legend {
+  font-size: $normal;
+  font-family: $font-titles;
+  margin-bottom: 0.2em;
+}
+
+input {
+  font-size: $normal;
+  font-family: $font-base;
+}
+
 input[type=text], textarea {
   display: block;
   width: 100%;
@@ -14,10 +25,6 @@ input[type=text], textarea {
 
 input[type=text] {
   margin-bottom: 1em;
-}
-
-legend {
-  margin-bottom: 0.2em;
 }
 
 .input-error {
@@ -31,4 +38,5 @@ legend {
 .form-btn {
   float: right;
 }
+
 
