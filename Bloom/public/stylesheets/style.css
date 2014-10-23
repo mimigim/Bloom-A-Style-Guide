@@ -31,30 +31,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-@font-face {
-  font-family: 'Museo';
-  src: url('../fonts/MuseoCyrl_500-webfont.eot');
-  src: url('../fonts/MuseoCyrl_500-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoCyrl_500-webfont.woff') format('woff'), url('../fonts/MuseoCyrl_500-webfont.ttf') format('truetype'), url('../fonts/MuseoCyrl_500-webfont.svg#museo_cyrl_500regular') format('svg');
-  font-weight: normal;
-  font-style: normal; }
-
-h1, h2 {
-  font-family: 'Arial Rounded MT Bold', sans-serif;
-  margin-top: 1rem; }
-
-h1 {
-  font-size: 2.618rem; }
-
-h2 {
-  font-size: 1.618rem;
-  color: #5A5C5A; }
-
-h3 {
-  font-family: 'Museo', serif;
-  margin-top: 1rem;
-  font-size: 1rem;
-  color: #5A5C5A; }
-
 .stnd-primary, .sm-primary, .stnd-secondary, .sm-secondary, .stnd-disabled, .sm-disabled {
   border: none;
   border-radius: 0.8rem; }
@@ -114,24 +90,53 @@ h3 {
 .fifth-color {
   background-color: #0D0D0D; }
 
+@font-face {
+  font-family: 'Museo';
+  src: url('../fonts/MuseoCyrl_500-webfont.eot');
+  src: url('../fonts/MuseoCyrl_500-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoCyrl_500-webfont.woff') format('woff'), url('../fonts/MuseoCyrl_500-webfont.ttf') format('truetype'), url('../fonts/MuseoCyrl_500-webfont.svg#museo_cyrl_500regular') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+h1, h2 {
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+  margin-top: 1.618rem; }
+
+h1 {
+  font-size: 2.618rem; }
+
+h2 {
+  font-size: 1.618rem;
+  color: #5A5C5A; }
+
+h3 {
+  font-family: 'Museo', serif;
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #5A5C5A; }
+
+p {
+  font-family: 'Museo', serif;
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #5A5C5A;
+  line-height: 1.3rem; }
+
 .p-grid {
   background-color: #E8E8E8;
   height: 4rem; }
+  .p-grid p {
+    margin-left: 1rem; }
 
 .p-grid-mix {
   background-color: #5A5C5A;
   height: 4rem; }
   .p-grid-mix p {
+    margin-left: 1rem;
     color: white; }
 
-.notes {
-  background: #5A5C5A;
-  height: 23.75rem; }
-
-.code {
-  background: #E8E8E8;
-  height: 2rem;
-  margin-left: -1%; }
+.logo img, .logo h1 {
+  display: inline-block;
+  font-size: 4.236rem; }
 
 .main-nav {
   list-style: none;
@@ -150,12 +155,24 @@ h3 {
     .main-nav a:hover {
       background-color: white; }
 
-.ptn-title, .ptn-subtitle {
-  text-align: center; }
 img {
   max-width: 100%;
   margin: 0;
   padding: 0; }
+
+.container {
+  width: 80%;
+  margin: 0 auto; }
+
+.notes h1 {
+  margin: 1rem; }
+
+.code {
+  background: #E8E8E8;
+  height: auto;
+  border-radius: 3px; }
+  .code p {
+    margin-left: 1rem; }
 
 .section {
   clear: both;

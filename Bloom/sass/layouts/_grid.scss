@@ -1,23 +1,16 @@
 .p-grid {
   background-color: $third-color;
   height: 4rem;
+  p {
+    margin-left: $normal;
+  }
 }
 
 .p-grid-mix {
   background-color: $fourth-color;
   height: 4rem;
   p {
+    margin-left: $normal;
     color: white;
   }
-}
-
-.notes {
-  background: $fourth-color;
-  height: 23.75rem;
-}
-
-.code {
-  background: $third-color;
-  height: 2rem;
-  margin-left: -1%;
 }

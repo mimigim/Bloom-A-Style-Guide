@@ -5,7 +5,9 @@ html
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
     header
-      img(src='/images/leaf-header.jpg', alt="Bloom logo.")
+      div.logo
+        img(src='images/bloom-logo.png', alt="Bloom logo.")
+        h1 let your ideas bloom
       ul.main-nav
         li
           a(href='/buttons') Buttons
@@ -22,6 +24,7 @@ html
         li
           a(href='/type') Typography
     main
-      block content
+      div.container
+        block content
 
     script(src='http://localhost:35729/livereload.js')
