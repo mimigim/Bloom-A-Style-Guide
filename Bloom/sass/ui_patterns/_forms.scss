@@ -14,7 +14,7 @@ legend {
   margin-bottom: 0.2em;
 }
 
-input, textarea {
+input, textarea, select {
   font-size: $normal;
   font-family: $font-base;
   padding: .3rem;
@@ -37,9 +37,17 @@ input[type=text] {
   border-color: $primary-color;
 }
 
+.checkbox-label, .radio-label {
+  font-size: $normal;
+  font-family: $font-base;
+  cursor: pointer;
+  margin-right: 0.5em;
+}
+
 .form-btn {
   float: right;
 }
+
 footer {
   background-color: $secondary-color;
   margin-top: $medium;
@@ -48,3 +56,4 @@ footer {
     text-align: center;
   }
 }
+
