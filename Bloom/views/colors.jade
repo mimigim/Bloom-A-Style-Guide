@@ -2,24 +2,28 @@ extends layout
 
 block content
   h1.ptn-title= title
-  h2.ptn-subtitle Need to come back to this!!!!!
+  //- h2.ptn-subtitle Need to come back to this!!!!!
 
   div.section.group
     div.col.span_2_of_3
       div.swatch.primary-color
-        p #C8EA80
-        p $primary-color
+        p.swatch-label #C8EA80
+        p.swatch-label $primary-color
       div.swatch.secondary-color
-        p #EFEC72
-        p $secondary-color
+        p.swatch-label #EFEC72
+        p.swatch-label $secondary-color
       div.swatch.third-color
-        p #E8E8E8
-        p $third-color
-      div.swatch.fourth-color.white
-        p #5A5C5A
-        p $fourth-color
-      div.swatch.fifth-color.white #0D0D0D
-        p $fifth-color
+        p.swatch-label #E8E8E8
+        p.swatch-label $third-color
+      div.swatch.fourth-color
+        p.swatch-label.white #5A5C5A
+        p.swatch-label.white $fourth-color
+      div.swatch.fifth-color
+        p.swatch-label.white #0D0D0D
+        p.swatch-label.white $fifth-color
     div.col.span_1_of_3.notes
+      h2 Notes
+      p This is a sentence. This is a sentence. This is a sentence. This is a sentence.
   div.section.group
     div.col.span_3_of_3.code
+      p Code
