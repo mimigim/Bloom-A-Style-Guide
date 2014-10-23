@@ -1,42 +1,47 @@
 @font-face {
-    font-family: 'Museo';
-    src: url('../fonts/MuseoCyrl_500-webfont.eot');
-    src: url('../fonts/MuseoCyrl_500-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/MuseoCyrl_500-webfont.woff') format('woff'),
-         url('../fonts/MuseoCyrl_500-webfont.ttf') format('truetype'),
-         url('../fonts/MuseoCyrl_500-webfont.svg#museo_cyrl_500regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: 'Museo';
+  src: url('../fonts/MuseoCyrl_500-webfont.eot');
+  src: url('../fonts/MuseoCyrl_500-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoCyrl_500-webfont.woff') format('woff'), url('../fonts/MuseoCyrl_500-webfont.ttf') format('truetype'), url('../fonts/MuseoCyrl_500-webfont.svg#museo_cyrl_500regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
-
 %header_text {
   font-family: $font-titles;
   margin-top: $medium;
 }
-
 h1 {
   @extend %header_text;
   font-size: $large;
+  color: $fifth-color;
 }
-
 h2 {
   @extend %header_text;
   font-size: $medium;
-  color: $fourth-color;
+  color: $fifth-color;
 }
-
 h3 {
   font-family: $font-base;
   margin-top: $normal;
+  font-size: $medium;
+  color: $fourth-color;
+}
+h4 {
+  font-family: $font-base;
+  margin-top: $small;
   font-size: $normal;
   color: $fourth-color;
 }
-
 p {
   font-family: $font-base;
-  margin-top: $normal;
+  margin: $small 0;
   font-size: $normal;
   color: $fourth-color;
   line-height: 1.3rem;
+}
+a {
+  font-family: $font-titles;
+  color: $fifth-color;
+  a:hover, a:focus {
+    outline: none;
+  }
 }

@@ -1,9 +1,12 @@
 .post-text {
-  display: inline-block;
   vertical-align: top;
   padding-left: 1rem;
   h1 {
     margin-top: 0;
     font-size: $medium;
   }
+}
+
+.post-img img {
+  margin-right: $small;
 }

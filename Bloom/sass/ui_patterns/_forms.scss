@@ -5,17 +5,19 @@ form {
 
 fieldset {
   margin-bottom: 1em;
+  width: 95%;
 }
 
 legend {
-  font-size: $normal;
+  font-size: $medium;
   font-family: $font-titles;
   margin-bottom: 0.2em;
 }
 
-input {
+input, textarea {
   font-size: $normal;
   font-family: $font-base;
+  padding: .3rem;
 }
 
 input[type=text], textarea {
@@ -37,4 +39,12 @@ input[type=text] {
 
 .form-btn {
   float: right;
+}
+footer {
+  background-color: $secondary-color;
+  margin-top: $medium;
+  p {
+    padding: $normal;
+    text-align: center;
+  }
 }

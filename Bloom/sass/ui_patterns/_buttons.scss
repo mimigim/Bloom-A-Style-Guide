@@ -1,3 +1,7 @@
+button {
+  font-family: $font-base;
+}
+
 .btn-header {
   padding-bottom: 0.3em;
 }
@@ -25,6 +29,7 @@
   background-color: $primary-color;
   &:hover, &:focus {
     background-color: $primary-color-hover;
+    outline: none;
   }
 }
 
