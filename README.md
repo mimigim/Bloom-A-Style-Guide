@@ -1,18 +1,30 @@
-Bloom-A-Style-Guide
+Bloom - A Style Guide
 ===================
 
-Description: The inspiration behind our living style guide is the design and life cycle of a tree. A tree represents the concept of one complex organism consisting of many smaller parts. A new note.
+Description
+-----------
+The inspiration behind our living style guide is the design and life cycle of a tree. A tree represents the concept of one complex organism consisting of many smaller parts.
+
+Install Instructions
+------------
+1.  Fork/Clone repo
+2.  `$ cd Bloom/`
+3.  `$ npm install`
+4.  `$ grunt`
+5.  `$ grunt watch`
+6.  Open a new terminal tab in the Bloom/ directory and `$ npm start`
+7.  Open localhost:3000 and you will see the Bloom Style Guide!
 
 Minimum Viable Product Specification
-====================================
+------------------------------------
 
 Deliverables
 ------------
-1. View that exposes our key UI components and patterns
-2. View that demonstrates a use case for components and patterns
+1. A view that reveals our design principles.Vi that exposes our key UI components and patterns
+2. Separate views for each UI Pattern in the Living Style Guide
 
-Components of Library
----------------------
+UI Patterns in Living Style Guide
+---------------------------------
 * Navigation
   * Links
   * Text
