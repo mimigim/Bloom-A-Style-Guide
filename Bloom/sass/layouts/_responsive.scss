@@ -91,6 +91,22 @@
 }
 
 @media only screen and (max-width: 480px) {
+  .logo {
+    h1 {
+      display: none;
+    }
+    img {
+      max-width: 60%;
+      display: block;
+      margin: 0 auto;
+      float: none;
+    }
+  }
+
+  .container {
+    width: 95%;
+  }
+
     .col {
     margin: 1% 0 1% 0;
   }
