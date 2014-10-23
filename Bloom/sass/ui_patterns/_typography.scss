@@ -12,7 +12,7 @@
 
 %header_text {
   font-family: $font-titles;
-  margin-top: $normal;
+  margin-top: $medium;
 }
 
 h1 {
@@ -31,4 +31,12 @@ h3 {
   margin-top: $normal;
   font-size: $normal;
   color: $fourth-color;
+}
+
+p {
+  font-family: $font-base;
+  margin-top: $normal;
+  font-size: $normal;
+  color: $fourth-color;
+  line-height: 1.3rem;
 }
