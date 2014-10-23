@@ -4,4 +4,13 @@ block content
   h1.ptn-title= title
   h2.ptn-subtitle Need to come back to this!!!!!
 
-  p Forms pattern
+  form.form-bkg__style
+  fieldset
+    legend.form-style__type Just so we can get to know you, please provide some basic info.
+    ul
+      li.form-li__center-align
+        label(for='name') Name:
+        input.input-size__long(name='name', type='text', placeholder='Your Name', required='', autofocus='')
+      li.form-li__center-align
+        label(for='email') Email:
+        input.input-size__long(name='email', type='email', placeholder='example@domain.com', required='')
