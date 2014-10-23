@@ -34,5 +34,19 @@ block content
       p It is the portal to important content and it can drastically increase (or decrease) site click-through. Effective site navigation depends on almost all of the design disciplines involved in web design including information architecture, user experience design, visual design and front-end development. This post will focus mostly on visual design with some notes on usability and implementation.
   div.section.group
     div.col.span_3_of_3.code
-      p Code
-
+      pre
+        code
+          p First Navigation
+          span &lt;ul class="main-nav"&gt;
+          span   &lt;a href="#"&gt;Link&lt;/a&gt;
+          span &lt;/ul&gt;
+          p Secondary Navigation
+          span &lt;ul class="secondary-nav"&gt;
+          span   &lt;a href="#"&gt;Link&lt;/a&gt;
+          span &lt;/ul&gt;
+          p jQuery
+          span $('.main-nav a').each(function() {
+          span  if ($(this).attr('href') === window.location.pathname) {
+          span    $(this).addClass('current-tab');
+          span  }
+          span });
