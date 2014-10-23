@@ -2,10 +2,10 @@ extends layout
 
 block content
   h1.ptn-title= title
-  //- h2.ptn-subtitle Need to come back to this!!!!!
 
   div.section.group
     div.col.span_2_of_3
+      h2 Sample Colors
       div.swatch.primary-color
         p.swatch-label #C8EA80
         p.swatch-label $primary-color
@@ -28,4 +28,11 @@ block content
       p If such a major part of your design doesn't feel right, or represent your company, service or brand well, then it can make all the difference between users that stay and explore and those that disappear.
   div.section.group
     div.col.span_3_of_3.code
-      p Code
+      pre
+        code
+          p Grab all the colors here:
+          span color: #C8EA80; // pale green
+          span color: #EFEC72; // pale yellow
+          span color: #E8E8E8; // light grey
+          span color: #5A5C5A; // dark grey
+          span color: #0D0D0D; // dark black
