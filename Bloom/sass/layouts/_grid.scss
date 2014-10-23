@@ -6,11 +6,8 @@
   }
 }
 
-.p-grid-mix {
-  background-color: $fourth-color;
-  height: 4rem;
-  p {
-    margin-left: $normal;
-    color: white;
+.grid-page-style {
+  h2:nth-child(n+2) {
+    margin-top: 0.2px;
   }
 }

@@ -3,16 +3,22 @@ extends layout
 block content
   h1.ptn-title= title
 
-  div.section.group
+  div.section.group.grid-page-style
     div.col.span_2_of_3
-      h2 Sample Grid
       include includes/grid/grid-system
     div.col.span_1_of_3.notes
       h2 Notes
       p Grid systems have seen significant use in print media, interest from web developers has only recently seen a resurgence. Website design frameworks producing HTML and CSS had existed for a while before newer frameworks popularised the use of grid-based layouts. Some grid systems specify fixed-width elements with pixels, and some are 'fluid', meaning that they call for page element sizing to be in relative units like percentages, rather than absolute units like pixels or points.
   div.section.group
     div.col.span_3_of_3.code
-      p Code
+      pre
+        code
+          span // example of 3 column grid markup
+          span &lt;div class="section group"&gt;
+          span   &lt;div class="col span_1_of_3"&gt;...&lt;/div&gt;
+          span   &lt;div class="col span_1_of_3"&gt;...&lt;/div&gt;
+          span   &lt;div class="col span_1_of_3"&gt;...&lt;/div&gt;
+          span &lt;/div&gt;
 
   div.section.group
     div.col.span_2_of_3
@@ -23,7 +29,14 @@ block content
         Don't be forced into having a fixed number of columns across a whole page. You can have whatever you want, wherever you need it.
       br
       p.
-        To find out more about this grid, head over to the <a href='http://www.responsivegridsystem.com/'> Responsive Grid System</a> site.
+        To find out more about this grid, head over to the &lt;a href='http://www.responsivegridsystem.com/'&gt; Responsive Grid System&lt;/a&gt; site.
   div.section.group
     div.col.span_3_of_3.code
-      p Code
+      pre
+        code
+          span // example of 3rd row with different column widths
+          span &lt;div class="section group"&gt;
+          span   &lt;div class="col span_1_of_4"&gt;...&lt;/div&gt;
+          span   &lt;div class="col span_2_of_4"&gt;...&lt;/div&gt;
+          span   &lt;div class="col span_1_of_4"&gt;...&lt;/div&gt;
+          span &lt;/div&gt;
